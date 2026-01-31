@@ -1,0 +1,21 @@
+/* Default defaults that interfere with full-width layout are removed */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Section */
+.hotels-section {
+  padding: 40px;
+}
+
+.section-title {
+  margin-bottom: 24px;
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
